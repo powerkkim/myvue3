@@ -24,6 +24,10 @@ const routes = [
 		component: () => import('@/views/MemberView.vue'),
 		meta: { requiresAuth: true },
 	},
+	{
+		path: '/:pathMatch(.*)*',
+		component: () => import('@/views/NotFoundPage.vue'),
+	},
 ];
 
 const router = createRouter({
