@@ -113,5 +113,13 @@ npm run lint
 ## Vue 프로젝트 기본파일 초기화.
 ### 기반이 되는 코드 만들기. 
 
+1. App.vue 파일 수정.
 
+```
+<script setup></script>
 
+<template>
+	<h1>Home</h1>
+	<p>Count: {{ counterStore.count }}</p>
+	<button @click="counterStore.increment">Increment</button>
+</template>
