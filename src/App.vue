@@ -1,11 +1,9 @@
-<script setup>
-import { useCounterStore } from '@/stores/counter';
-
-const counterStore = useCounterStore();
-</script>
+<script setup></script>
 
 <template>
-	<h1>Home1</h1>
-	<p>Count: {{ counterStore.count }}</p>
-	<button @click="counterStore.increment">Increment</button>
+	<router-link to="/home">홈으로</router-link> |
+	<router-link to="/about">about</router-link> |
+	<router-link to="/member"> 회원전용 </router-link>
+
+	<router-view></router-view>
 </template>
