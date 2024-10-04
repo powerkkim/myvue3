@@ -1,7 +1,6 @@
 <template>
-	<h1>LoginPage</h1>
+	<div>
+		<h1>Login Page</h1>
+		<router-link to="/">Home</router-link>
+	</div>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
