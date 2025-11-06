@@ -4,6 +4,9 @@
 1. Vite Vue 프로젝트 생성
    ```
    npm init vue
+
+   # 최신버전 설치를 원할경우 
+   npm create vue@latest
    ```
 
 2. 프로젝트 설정
